@@ -50,8 +50,29 @@
     box-sizing: border-box;
     font-family: var(--font-family-sans-serif);
     list-style-type: none;
+    text-decoration: none;
+}
+.header-items-container {
+    background-color: var(--bg-color);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+a {
+    color: rgba(3, 31, 81, 0.981);
+}
+a:hover {
+    color: rgba(29, 76, 156, 0.845);
+    transition-duration: 2s;
 }
 
 .menu-btn-holder {
     display: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 80px;
 }

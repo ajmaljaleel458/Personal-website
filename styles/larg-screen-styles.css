@@ -44,5 +44,53 @@
     .fa {
         color: rgba(3, 31, 81, 0.981);
     }
+    .banner-section {
+        width: 100vw;
+        height: calc(100vh - 80px);
+        z-index: 0;
+        padding: 10px 200px;
+    }
+    .hero-items-container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template: 1fr / 9fr 1fr;
+    }
+    .about-section {
+        display: grid;
+        grid-template: 2fr 3fr / 1fr;
+    }
+    .social-media-link-holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .follow-social ul{
+        transform: rotate(0deg);
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .follow-social {
+        row-gap: 100px;
+    }
+    .about-content {
+        padding: 10px 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1%;
+    }
+    .image-holder {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .image-holder img {
+        width: 500px;
+        height: auto;
+    }
 
 }
