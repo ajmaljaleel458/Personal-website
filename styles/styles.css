@@ -51,3 +51,7 @@
     font-family: var(--font-family-sans-serif);
     list-style-type: none;
 }
+
+.menu-btn-holder {
+    display: none;
+}
