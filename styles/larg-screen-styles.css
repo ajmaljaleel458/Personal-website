@@ -92,5 +92,14 @@
         width: 500px;
         height: auto;
     }
+    .content-text {
+        font-family: 'Libre Baskerville',serif;
+        font-size: 2rem;
+        color: rgba(3, 31, 81, 0.981);
+    }
+    .content-discription {
+        color: rgba(19, 47, 96, 0.981); 
+        font-size: 0.8rem;
+    }
 
 }
