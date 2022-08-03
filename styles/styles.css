@@ -73,7 +73,7 @@ a:hover {
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     padding-top: 80px;
 }
 
