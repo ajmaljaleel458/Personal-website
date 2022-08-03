@@ -73,7 +73,7 @@
         grid-template: 2fr 3fr / 1fr;
     }
     .about-section span {
-        font-size: 1vw;
+        font-size: 0.5rem;
     }
     .social-media-link-holder {
         display: flex;
@@ -88,7 +88,10 @@
         row-gap: 10px;
     }
     .follow-social {
-        row-gap: 100px;
+        row-gap: 30px;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
     }
     .about-content {
         padding: 0;
@@ -114,7 +117,7 @@
     }
     .content-discription {
         color: rgba(19, 47, 96, 0.981); 
-        font-size: 0.4rem;
+        font-size: 0.6rem;
     }
 
 }

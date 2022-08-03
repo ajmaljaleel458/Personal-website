@@ -76,7 +76,10 @@
         row-gap: 10px;
     }
     .follow-social {
-        row-gap: 100px;
+        row-gap: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
     }
     .about-content {
         padding: 10px 10px;
