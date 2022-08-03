@@ -90,3 +90,6 @@ body {
     padding: 10px;
     color: whitesmoke;
 }
+.fa-bars  {
+    display: none;
+}
