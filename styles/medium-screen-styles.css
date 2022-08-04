@@ -21,6 +21,12 @@
         letter-spacing: 1px;
         color: rgba(3, 31, 81, 0.981);
     }
+    .fa-bars {
+        display: none;
+    }
+    .menu-bars {
+        display: none;
+    }
     .header-items ul{
         display: flex;
         flex-direction: row;

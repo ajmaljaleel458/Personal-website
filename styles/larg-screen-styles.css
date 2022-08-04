@@ -78,6 +78,12 @@
         flex-direction: column;
         height: 200px;
     }
+    .fa-bars {
+        display: none;
+    }
+    .menu-bars {
+        display: none;
+    }
     .about-content {
         padding: 10px 10%;
         display: flex;
