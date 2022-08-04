@@ -181,4 +181,94 @@
         height: 300px;
         border-radius: 5px;
     }
+
+
+
+
+
+
+
+
+
+
+    .featured-skills-section {
+        width: 100vw;
+        height: calc(80vh);
+        padding: 10px 5vw;
+        background: var(--bg-lightgrey);
+    }
+    .featured-skills-content-holder {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: grid;
+        grid-template: 1fr /  1fr;
+    }
+    .featured-skills-image-holder {
+        display: none;
+    }
+    .featured-skills-text-content-holder {
+        padding: 30px;
+        display: grid;
+        grid-template: 1.5fr 1.5fr 2fr 3fr / 1fr;
+    }
+    .featured-skills-image {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .my-features-holder-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4vw;
+        color: var(--primary-color);
+        font-weight: 400;
+    }
+    .my-features-holder-sub-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 6vw;
+        font-family: 'Libre Baskerville',serif;
+        font-weight: 600;
+        color: var(--font-color);
+    }
+    .my-features-holder-discription {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: var(--font-color);
+        font-family: 'Work Sans', sans-serif;
+        letter-spacing: 1.5px;
+        font-size: 1rem;
+    }
+    .skills-bars {
+        padding: 10px;
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr;
+        row-gap: 10px;
+    }
+    .skil-bar {
+        display: grid;
+        grid-template: 9fr 1fr / 1fr;
+    }
+    .skill-progress-bar-container {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(221, 224, 224, 0.784);
+        border-radius: 20px;
+    }
+    .skil-bar-text {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .progress-percentage {
+        height: 100%;
+        width: 50%;
+        background-color: var(--secondary-color);
+        border-radius: 10px;
+    }
 }
