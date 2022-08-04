@@ -64,32 +64,36 @@
     }
     .banner-section {
         width: 100vw;
-        height: auto;
+        height: calc( 100vh - 80px);
         z-index: 0;
-        padding: 10px 10px;
+        padding: 10px;
     }
     .hero-items-container {
         width: 100%;
         height: 100%;
         display: grid;
-        grid-template: auto auto auto / 1fr;
-        row-gap: 20px;
+        grid-template: 9fr 1fr / 1fr;
+        padding: 10px;
+        row-gap: 10px;
     }
     .about-section {
-        display: grid;
-        grid-template: 2fr 3fr / 1fr;
+        width: calc(100vw - 40px);
+        height: 100%;
+        padding: 10px;
+        row-gap: 10px;
+        display: flex;
+        flex-direction: column;
     }
     .about-section span {
         font-size: 0.5rem;
     }
     .social-media-link-holder {
-        width: 100vw;
-        height: auto;
-        padding: 5px 20px;
+        width: calc( 100vw - 40px);
+        height: 100%;
+        padding: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
     .follow-social ul{
         align-items: center;
@@ -97,34 +101,37 @@
         row-gap: 10px;
     }
     .follow-social {
-        row-gap: 30px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     .my-fa {
         font-size: 30px;
     }
     .about-content {
-        padding: 10px;
+        width: 100%;
+        height: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 5px;
+        gap: 10px;
     }
     .about-content span {
         font-size: 18px;
     }
     .image-holder {
+        width: 100%;
+        height: 50%;
+        padding: 10px;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
     }
     .image-holder img {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .content-text {
@@ -138,22 +145,23 @@
         font-size: 15px;
         text-align: center;
         font-family: 'Work Sans', sans-serif;
+        padding: 15px;
     }
     .services-section {
         width: 100vw;
         height: calc(100vh - 80px);
-        background-color: var(--white);
+        background-color: var(--bg-lightgrey);
         padding: 10px 10px;
     }
     .service-section-content-holder {
         width: 100%;
         height: 100%;
-        padding: 50px 10px;
+        padding: 10px 10px;
         display: grid;
         grid-template: 1fr / 1fr;
     }
     .my-services-text-container {
-        padding: 50px;
+        padding: 10px;
         display: grid;
         grid-template:  repeat(6, auto) / 1fr;
     }
