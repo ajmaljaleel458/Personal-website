@@ -215,6 +215,9 @@
         color: var(--primary-color);
         font-weight: 400;
     }
+    .fa-solid {
+        cursor: pointer;
+    }
     .my-features-holder-sub-header {
         display: flex;
         justify-content: flex-start;

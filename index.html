@@ -21,10 +21,10 @@
         <div class="header-items-container">
             <div class="header-items">
                 <p class="portfolio-text"><a href="#">Portfo<span>lio</span></a></p>
-                <ul class="nav-links">
-                    <li class="link-styles"><a href="#">Home</a></li>
-                    <li class="link-styles"><a href="#">Sections</a></li>
-                    <li class="link-styles"><a href="#">My other works</a></li>
+                <ul class="nav-links" id="burger">
+                    <li class="link-styles"><a href="#home">Home</a></li>
+                    <li class="link-styles"><a href="#services">Services</a></li>
+                    <li class="link-styles"><a href="#featured-skills">Featured-skills</a></li>
                     <li class="link-styles"><a href="#">Contact</a></li>
                 </ul>
                 <ul class="nav-btns">
@@ -36,7 +36,7 @@
         </div>
     </header>
     <section>
-        <div class="banner-section">
+        <div class="banner-section" id="home">
             <div class="hero-items-container">
                 <div class="about-section">
                     <div class="about-content">
@@ -62,7 +62,7 @@
         </div>
     </section>
     <section>
-        <div class="services-section">
+        <div class="services-section" id="services">
             <div class="service-section-content-holder">
                 <div class="my-services-text-container">
                     <p class="service-heading-text">My Services</p>
@@ -84,7 +84,7 @@
         </div>
     </section>
     <section>
-        <div class="featured-skills-section">
+        <div class="featured-skills-section" id="featured-skills">
             <div class="featured-skills-content-holder">
                 <div class="featured-skills-image-holder">
                     <img class="featured-skills-image" src="./images/Screenshot 2022-08-03 at 2.14.37 PM.png" alt="">
@@ -123,6 +123,7 @@
             </div>
         </div>
     </section>
+    <script src="./app.js"></script>
 </body>
 
 </html>

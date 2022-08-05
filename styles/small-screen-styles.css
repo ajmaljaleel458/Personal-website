@@ -119,6 +119,9 @@
     .menu-bars {
         display: none;
     }
+    .fa-solid {
+        cursor: pointer;
+    }
     .service-section-content-holder {
         width: 100%;
         height: 100%;
