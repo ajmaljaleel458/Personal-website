@@ -94,3 +94,28 @@ body {
 .fa-bars  {
     display: none;
 }
+.A-progress-percentage {
+    width: 80%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+.B-progress-percentage {
+    width: 40%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+.C-progress-percentage {
+    width: 50%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+.D-progress-percentage {
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+

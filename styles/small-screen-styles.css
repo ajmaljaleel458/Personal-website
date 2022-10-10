@@ -273,10 +273,4 @@
         justify-content: flex-start;
         align-items: center;
     }
-    .progress-percentage {
-        height: 100%;
-        width: 50%;
-        background-color: var(--secondary-color);
-        border-radius: 10px;
-    }
 }
