@@ -109,9 +109,12 @@
     }
     .services-section {
         width: 100vw;
-        height: calc(100vh - 80px);
+        height: 1000px;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: var(--white);
-        padding: 10px 10px;
     }
     .fa-bars {
         display: none;
@@ -123,48 +126,53 @@
         cursor: pointer;
     }
     .service-section-content-holder {
-        width: 100%;
+        width: 500px;
         height: 100%;
-        padding: 50px 10px;
         display: grid;
-        grid-template: 1fr / 1fr;
+        grid-template: 6fr 4fr / 1fr;
     }
     .my-services-text-container {
-        padding: 50px;
-        display: grid;
-        grid-template:  repeat(6, auto) / 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding:  50px;
     }
     .my-image-container {
-        display: none;
+        display: flex;
         align-items: center;
-        justify-content: flex-end;
-        padding: 100px 0 100px 100px;
-
+        justify-content: center;
     }
     .service-heading-text {
-        font-size: 12px;
         color: var(--primary-color);
         font-weight: 400;
-        display: block;
-        margin-bottom: 15px;
+        text-align: center;
     }
     .service-sub-heading-text {
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-weight: 900;
-        position: relative;
+        text-align: center;
         font-family: 'Libre Baskerville', serif;
         color: var(--heading-color);
     }
-    .service-discription {
+   .service-discription {
         font-size: 12px;
+        text-align: center;
     }
     .service-footer {
         font-size: 11px;
         font-weight: 400;
+        text-align: center;
+       
+    }
+    .service-footer a {
+        text-align: center;
+         color: var(--primary-color);
     }
     .list-of-my-skills {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 5px;
     }
     .list-of-my-skills li {
@@ -178,11 +186,8 @@
         cursor: pointer;
     }
     .service-section-image {
-        min-width: 250px;
-        width: 250px;
-        max-width: 250px;
-        height: 300px;
-        border-radius: 5px;
+        width: 300px;
+        height: auto;
     }
 
 
